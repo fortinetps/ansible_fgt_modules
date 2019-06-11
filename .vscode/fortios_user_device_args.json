@@ -1,0 +1,18 @@
+{
+    "ANSIBLE_MODULE_ARGS": {
+        "host": "192.168.210.11",
+        "username": "admin",
+        "password": "fortinet",
+        "https": "yes",
+        "vdom": "root",
+        "state": "present",
+        "user_device": {
+          "category": "none",
+          "alias": "myuser",
+          "comment": "Comment.",
+          "mac": "00:01:04:03:ab:c3:32",
+          "type": "android-phone",
+          "user": "my_user"
+        }
+    }
+}
