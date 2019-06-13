@@ -15,6 +15,30 @@
             "args": [
                 "${workspaceFolder}/.vscode/fortios_user_device_args.json"
             ]
+        },
+        {
+            "name": "Python: Terminal (integrated) - Test fortios_firewall_address official Ansible (2.8) module",
+            "type": "python",
+            "request": "launch",
+            "program": "/usr/local/lib/python3.5/site-packages/ansible/modules/network/fortios/fortios_firewall_address.py",
+            // "cwd": "${workspaceRoot}",
+            "env": {"PYTHONPATH": "${workspaceRoot}"},
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/.vscode/fortios_firewall_address_args.json"
+            ]
+        },
+        {
+            "name": "Python: Terminal (integrated) - Test fortios_firewall_address CSE Ansible module",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/v6.0.2/firewall/fortios_firewall_address.py",
+            // "cwd": "${workspaceRoot}",
+            "env": {"PYTHONPATH": "${workspaceRoot}"},
+            "console": "integratedTerminal",
+            "args": [
+                "${workspaceFolder}/.vscode/fortios_firewall_address_args.json"
+            ]
         }
     ]
 }
